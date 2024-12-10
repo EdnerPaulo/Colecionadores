@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" type="text/css" href="css/stylo.css">
+</head>
+<body>
+    <header class="header">
+        <img src="img/Logo.jpg" alt="Logo" class="logo">
+        <nav >
+            <ul class="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="historia.html">História</a></li>
+                <li><a href="colecionadores.html">Colecionadores</a></li>
+                <li><a href="moedas.html">Moedas</a></li>
+                <li><a href="participe.html">Faça Parte</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="body">
+        <div class="conteiner">
+            <span>
+                <h2>Formulario de Inscrição</h2>
+            </span>
+            <div id="form">
+                <form method="post" id="formulario" onsubmit="return validarFormulario()">
+                    <label for="nome">Nome : </label>
+                    <input type="text" name="nome" class="nome" placeholder="Digite aqui seu Nome..">
+                    
+                    <label for="email">Seu email: </label>
+                    <input type="text" name="email" class="email" placeholder="Digite o seu email...">
+        
+                    <label for="endereco">Endereço: </label>
+                    <input type="text" name="endereco" class="endereco" placeholder="Digite o seu Endereço...">
+        
+                    <label for="telefone">Digite seu telefone: </label>
+                    <input type="text" name="telefone" class="telefone" placeholder="Digite seu telefone...">
+        
+                    <button type="submit">Cadastrar</button>
+                </form>
+            </div>
+        </div>
+        
+    </section>
+    <section class="secao" >
+            <div>
+                <h2 style="text-align: center;">Numismática São Paulo</h2>
+                <img src="img/comemorar.jpg" alt="primeiras Moedas">
+                <strong>Fundaçao solida</strong> 
+            </div>      
+            <div>
+                <h2 style="text-align: center;"> Os Melhores </h2>
+                <img src="img/comemorar3.jpg" alt="primeiras Moedas">
+                <strong>Sociedade Numismática </strong>
+
+            
+            </div>      
+            <div>
+                <h2 style="text-align: center;">Colecionadores</h2>
+                <img src="img/comemorar2.jpg" alt="primeiras Moedas">
+                <strong>Faça Parte</strong>
+            </div>
+    </section>
+<footer> 
+    <p>&copy; 2024 Conteúdo Produzido Por Edner Paulo. Todos os direitos reservados.</p>
+</footer>
+    <script src="js/script.js"></script>
+</body>
+</html>

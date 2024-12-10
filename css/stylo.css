@@ -1,0 +1,131 @@
+body ,nav ,ul ,li ,p {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    user-select: none;
+    font-size: 1.2rem;
+    font-family: Arial;
+}
+body{
+    background: linear-gradient(95deg, #21db08, #ffeb3b, #5e5bec, #fdfdfd);
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+img{
+    max-width: 100%;
+    display: block;
+    border-radius: 15px;
+}
+.header{
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 10px;
+    align-items: center;
+    border-radius: 10px;
+}
+.logo{
+    width: 75px;
+    height: 75px;
+    border-radius: 50px;
+    margin-left: 45px;
+}
+.menu{
+    display: flex;
+}
+.menu li{
+    margin-left: 10px;
+}
+.menu li a{
+    display: block;
+    padding: 10px;
+    
+}
+.menu li a:hover{
+    color: #05089c;
+}
+.body{
+    margin: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.conteiner{
+    color: white;
+    background-color: black;
+    border-radius: 15px;
+    box-shadow: 0 0 10px 10px ;
+    padding: 7.5px;
+    max-width: 500px;
+    width: 100%;
+}
+label{
+    display: block;
+    margin-bottom: 5px;
+    margin: 5px;
+}
+input{
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+#p{
+    color: red;
+    visibility: hidden;
+  
+}
+button{
+    width: 100%;
+    padding: 10px;
+    background-color: cadetblue;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: aquamarine;
+}
+.secao{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.secao > div{
+    flex: 1 1 300px;
+    margin: 0 20px 0 20px;  
+}
+.secao > div > img{
+    opacity: 0.8;
+    margin: 15px;
+    padding: 20px;
+
+}
+
+.secao img:hover{
+    transform: scale(1.1);
+    border-color: #333;
+}
+.secao > div > strong{
+    margin-left: 80px;
+}
+
+
+/* Rodapé */
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 1px ;
+    bottom: 0;
+    border-radius: 15px 15px 0 0;
+    width: 100%;
+
+}    
